@@ -1,0 +1,37 @@
+.btn_comment{
+    border-radius: 10px;
+    background-color: lightgray;
+}
+
+.post_div{
+    background-color: lightblue;
+    border-radius: 10px;
+    border:2px solid chocolate;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+}
+.container_comment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.comment_div{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    column-gap: 10px;
+}
+.comment{
+    width: 22%;
+    background-color: seagreen;
+    border-radius: 10px;
+    border: 2px solid mediumorchid;
+    padding: 5px;
+    margin: 5px;
+}

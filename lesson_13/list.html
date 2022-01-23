@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .item {
+            margin-bottom: 10px;
+            margin-top: 10px;
+        }
+
+        .divElem {
+            background-color: lightgray;
+            border-radius: 10px;
+            border: 2px solid black;
+            width: max-content;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .info {
+            display: flex;
+            column-gap: 10px;
+            margin-top: 10px;
+        }
+
+        #add, #btnRemove, .item {
+            background: lightcyan;
+            border-radius: 20px;
+            padding: 5px;
+            font-family: Arvo;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        div, h3 {
+            border-radius: 20px;
+            font-family: Arvo;
+        }
+
+        .list_products {
+            display: flex;
+        }
+
+        img {
+            width: 200px;
+            height: 150px;
+        }
+
+    </style>
+</head>
+<body>
+<h3>The list</h3>
+<div class="list_products">
+</div>
+
+<div class="info">
+    <button id="add"><a href="lesson_13_js.html">Add products</a></button>
+    <button id="btnRemove">Remove products</button>
+</div>
+<script src="list.js">
+
+</script>
+
+</body>
+</html>

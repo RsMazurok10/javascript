@@ -1,0 +1,178 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+<script>
+    /* Створити змінні. Присвоїти кожному з них значення: 'hello','owu','com', 'ua', 1, 10, -999, 123, 3.14, 2.7, 16, true, false.
+      Вивести кожну змінну за допомогою: console.log , alert, document.write */
+    let a = 'hello';
+    console.log(a);
+    alert(a);
+    document.write(`${a}`);
+    let b = 'owu';
+    console.log(b);
+    alert(b);
+    document.write(` ${b}`);
+    let c = 'com';
+    console.log(c);
+    alert(c);
+    document.write(` ${c}`);
+    let d = 'ua';
+    console.log(d);
+    alert(d);
+    document.write(` ${d}`);
+    let num_1 = 1;
+    console.log(num_1);
+    alert(num_1);
+    document.write(` ${num_1}`);
+    let num_2 = 10;
+    console.log(num_2);
+    alert(num_2);
+    document.write(` ${num_2}`);
+    let num_3 = -999;
+    console.log(num_3);
+    alert(num_3);
+    document.write(` ${num_3}`);
+    let num_4 = 123;
+    console.log(num_4);
+    alert(num_4);
+    document.write(` ${num_4}`);
+    let num_5 = -3.14;
+    console.log(num_5);
+    alert(num_5);
+    document.write(` ${num_5}`);
+    let num_6 = -2.7;
+    console.log(num_6);
+    alert(num_6);
+    document.write(` ${num_6}`);
+    let num_7 = -16;
+    console.log(num_7);
+    alert(num_7);
+    document.write(` ${num_7}`);
+    let bool_1 = true;
+    console.log(bool_1);
+    alert(bool_1);
+    document.write(` ${bool_1}`);
+    let bool_2 = false;
+    console.log(bool_2);
+    alert(bool_2);
+    document.write(` ${bool_2}`);
+
+    /*Переприсвоїти кожній змінній з завдання значення на довільне.
+      Вивести кожну змінну за допомогою: console.log , alert, document.write*/
+    a = 'bye';
+    console.log(a);
+    alert(a);
+    document.write(`<br/> ${a}`)
+    b = 'logos';
+    console.log(b);
+    alert(b);
+    document.write(` ${b}`);
+    c = 'info';
+    console.log(c);
+    alert(c);
+    document.write(` ${c}`);
+    d = 'ru';
+    console.log(d);
+    alert(d);
+    document.write(` ${d}`);
+    num_1 = 2;
+    console.log(num_1);
+    alert(num_1);
+    document.write(` ${num_1}`);
+    num_2 = 11;
+    console.log(num_2);
+    alert(num_2);
+    document.write(` ${num_2}`);
+    num_3 = -989;
+    console.log(num_3);
+    alert(num_3);
+    document.write(` ${num_3}`);
+    num_4 = 125;
+    console.log(num_4);
+    alert(num_4);
+    document.write(` ${num_4}`);
+    num_5 = -3.17;
+    console.log(num_5);
+    alert(num_5);
+    document.write(` ${num_5}`);
+    num_6 = -2.5;
+    console.log(num_6);
+    alert(num_6);
+    document.write(` ${num_6}`);
+    num_7 = -18;
+    console.log(num_7);
+    alert(num_7);
+    document.write(` ${num_7}`);
+    bool_1 = false;
+    console.log(bool_1);
+    alert(bool_1);
+    document.write(` ${bool_1}`);
+    bool_2 = true;
+    console.log(bool_2);
+    alert(bool_2);
+    document.write(` ${bool_2}`);
+
+    /* Створити 3 змінних firstName, middleName, lastName, наповнити їх своїм ПІБ. З'єднати їх в одну змінну person.*/
+
+    let firstName = 'Roman',
+        middleName = 'Mazurok',
+        lastName = 'Sergiyovych';
+
+    let person = firstName + " " + middleName + " " + lastName;
+
+    console.log(person);
+
+    /*- За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
+    Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років". */
+
+    let name = prompt('Your name');
+    let lastname = prompt('Your lastName');
+    let age = prompt('Your age');
+
+    document.write('<br/> Вітаю,' + " " + name + " " + lastname + " " + '.Тобі' + " " + age + " " + 'років');
+
+    /*- За допомогою оператора typeof визначити типи наступних змінних та вивести їх в консоль.
+        let a = 100; let b = '100'; let c = true;*/
+
+    let a_1 = 100;
+    let b_1 = '100';
+    let c_1 = true;
+
+    console.log(typeof a_1);
+    console.log(typeof b_1);
+    console.log(typeof c_1);
+
+    /*- Визначити відповідний оператор в виразах що б вийшов відповідний результат.
+    В однакових виразах не використовувати однакові оператори!!!*/
+    console.log(5 < 6);
+    console.log(5 > 6);
+    console.log(5 == 6 );
+    console.log(5 === 6 );
+    console.log(10 === 10);
+    console.log(10 == 10) ;
+    console.log(10 !== 10) ;
+    console.log(10 > 10) ;
+    console.log(10 < 10) ;
+    console.log(123 === '123');
+    console.log(123 !== '123');
+
+/*- Подумайте Какие значения выведет в окно браузера следующий фрагмент кода?  и почему?*/
+    let str = "20";
+    let a_2 = 5;
+    document.write("<br/>"+ str + a_2 + "<br/>"); /*205 тому що,ми до числа додаємо стрінгу,в такому випадку завжди отримуємо стрінгу*/
+    document.write(str - a_2 + "<br/>"); /*15  тому що,ми від стрінги віднімаємо число,в такому випадку завжди отримуємо число*/
+    document.write(str * "2" + "<br/>");/*40 в даному випадку маємо дії між рядками,тому і виходить таке значення  */
+    document.write(str / 2 + "<br/>");/*10  тому що,ми стрінгу ділимо на число,в такому випадку отримуємо число*/
+
+
+</script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+.btn_posts, .btn_post_dtls {
+    border-radius: 10px;
+    background-color: lightgray;
+    width: 90%;
+    font-size: 20px;
+    font-family: "Cambria";
+    padding: 5px;
+    margin-bottom: 5px;
+
+}
+
+#user_data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: wheat;
+    padding: 10px;
+    font-family: Cambria;
+    margin-bottom: 10px;
+}
+
+.title_text{
+    width: 15%;
+    margin: 10px;
+    background-color: lightgreen;
+    border: 2px solid darkslategray;
+    border-radius: 10px;
+    padding: 5px;
+    height: 220px;
+}
+.posts_div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+button.btn_post_dtls{
+    display: flex;
+    align-items: center;
+}
